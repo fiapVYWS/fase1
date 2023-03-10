@@ -6,16 +6,7 @@
 }
 
 .cabecalho{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo_cabecalho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 5%;
 }
 
 .header1{
@@ -24,9 +15,26 @@
     height: 45px;
     display: flex;
     flex-direction: row;
+}
+
+.imagem_nav{
+    align-self: center;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 135px;
+    margin-top: 5%;
+}
+
+.header1_botoes{
+    width: 980px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    gap: 30px;
+    gap: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .texto_header1{
@@ -34,26 +42,27 @@
     font-size: 12px;
     font-family: Arial, sans-serif;
     display: flex;
-    margin-right: 30px;
 }
 
 .texto_header1:hover{
-    background-color: white;
-    color: #1b8e99;
-    border-radius: 10px;
-    padding: 30px 15px 30px 15px;
+    position: relative;
+    background-color: #92C9CE;
+    padding: 20px 10px 20px 10px;
 }
 
 .header2{
-    background-color: #660000;
+    background-color:#660000;
+}
+.header2_botoes{
     width: 980px;
     height: 45px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 30px;
-
+    gap: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .texto_header2{
@@ -61,12 +70,15 @@
     font-size: 12px;
     font-family: Arial, sans-serif;
     display: flex;
-    margin-left: 30px;
 }
 
 .texto_header2:hover{
+    position: relative;
     background-color: white;
     color: #660000;
-    padding: 30px 15px 30px 15px;
+    padding: 20px 10px 20px 10px;
 }
 
+.imagem_principal{
+    margin-bottom: -0.5%;
+}
