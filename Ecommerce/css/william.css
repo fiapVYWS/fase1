@@ -8,14 +8,13 @@
 
 .store__container--header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-bottom: 10px;
 }
 
-.store__container--header:first-child {
-  width: 100%;
+.store__container--header div{
+  width: inherit;
 }
 
 .store__container--header h2 {
@@ -55,11 +54,11 @@
   padding: 0 5px;
 }
 
-#container__items--red div {
+#container__items--red {
   border: 1px solid var(--red-light);
 }
 
-.container__items div {
+.container__items {
   border: 1px solid var(--green-light);
 }
 
