@@ -68,6 +68,14 @@
   text-align: center;
 }
 
+.container__items figure figcaption {
+  color: var(--green-dark);
+}
+
+#container__items--red figure figcaption {
+  color: var(--red-dark);
+}
+
 #container__items--red section header {
   background: var(--red-light);
   color: var(--red-dark);
@@ -111,7 +119,6 @@
 
 .store__container--footerContent span:first-child {
   font-size: 30px;
-  font-weight: bold;
   color: white;
   font-family: Tahoma, sans-serif;
 }
